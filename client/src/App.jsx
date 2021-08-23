@@ -12,12 +12,12 @@ const Landing = lazy(() => import('./pages/Landing.jsx'))
 
 const App = () => {
   return ( <Router >
-      <Suspense fallback={<h2 >Loading...go get a taco</h2 >}>
-        <Switch >
-          <Route exact path='/' component={Landing}/>
-        </Switch >
-      </Suspense >
-    </Router > )
+    <Suspense fallback={<h2 >Loading...go get a taco</h2 >}>
+      <Switch >
+        <Route exact path='/' component={Landing}/>
+      </Switch >
+    </Suspense >
+  </Router > )
 }
 
 export default App

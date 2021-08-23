@@ -1,24 +1,26 @@
-# tdubs-express-react-template
+# tdubs-fullstack-framework
+
 ***
 
 Full-stack template for an:
+
 * express server protected by CORS and helmet
 * DB and REST API functionality powered by knex and sqlite3
 * a frontend served up with React and axios
 
-![npm](https://img.shields.io/npm/v/tdubs-express-react-template?style=for-the-badge)
-![npm](https://img.shields.io/npm/dm/tdubs-express-react-template?style=for-the-badge)
-![NPM](https://img.shields.io/npm/l/tdubs-express-react-template?style=for-the-badge)
-
 ## Installation
-Use npm or yarn to install tdubs-express-react-template
+
+Select "Use this template" and clone to your machine to continue
+
 ```bash
-npm i tdubs-express-react-template
+git clone <URL>
 ```
 
 ## Usage
 
-_You will want to change "category" with whatever relates to your project. Following are the files that will need updating ( I prefer using ctrl + F and selecting all in a file to replace ) :_
+_You will want to change "category" with whatever relates to your project. Following are the files that will need
+updating ( I prefer using ctrl + F and selecting all in a file to replace ) :_
+
 - src/knexfile.js (db name)
 - src/category (dir name)
 - src/category/category-middleware.js
@@ -119,9 +121,11 @@ npm test
 # _Don't forget to grab a taco after all of that hard work!_
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
