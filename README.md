@@ -35,38 +35,12 @@ npm i
 # initiate eslint 
 npx eslint --init
 
-? How would you like to use ESLint?
-  To check syntax only
-  To check syntax and find problems
-> To check syntax, find problems, and enforce code style
-  
-? What type of modules does your project use?
-  JavaScript modules (import/export)
-> CommonJS (require/exports) 
-  None of these
-  
-  # even though we will be using React
-? Which framework does your project use?
-  React
-  Vue.js
-> None of these
-
-? Does your project use TypeScript?
-> No
-  Yes
-  
-? Where does your code run? …  (Press <space> to select, <a> to toggle all, <i> to invert selection)
-> Browser
-> Node
-
-? What format do you want your config file to be in?
-  JavaScript
-  YAML
-> JSON
-
 # install all client dependencies
 cd client
 npm i
+
+# initiate eslint in client
+npx eslint --init
 
 # run server
 cd src
