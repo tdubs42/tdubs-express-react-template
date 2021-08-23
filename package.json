@@ -4,7 +4,13 @@
   "description": "Express server with basic routes ready to deploy on Heroku. Uses express, helmet, and knex for the backend. Uses react and axios for the frontend.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "mup": "knex migrate:up",
+    "mdo": "knex migrate:down",
+    "mlate": "knex migrate:latest",
+    "mroll": "knex migrate:rollback",
+    "seed": "knex seed:run"
   },
   "keywords": [
     "express",
@@ -17,5 +23,15 @@
     "axios"
   ],
   "author": "tdubs42",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "knex": "^0.95.10",
+    "sqlite3": "^5.0.2"
+  }
 }

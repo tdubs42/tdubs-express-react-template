@@ -3,7 +3,7 @@
 
 Full-stack template for an:
 * express server protected by CORS and helmet
-* DB and REST API functionality powered by knex
+* DB and REST API functionality powered by knex and sqlite3
 * a frontend served up with React and axios
 
 ![npm](https://img.shields.io/npm/v/tdubs-express-react-template?style=for-the-badge)
@@ -21,6 +21,8 @@ npm i tdubs-express-react-template
 # install all server dependancies
 cd src
 npm i
+
+# initiate eslint 
 
 # install all client dependancies
 cd client
