@@ -4,8 +4,11 @@
     "es2021": true
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
+    "react-app",
+    "prettier",
+    "prettier/react",
+    "plugin:react/recommended",
+    "standard"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,15 +19,17 @@
   },
   "plugins": [
     "react",
-    "react-hooks"
+    "prettier"
   ],
   "rules": {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
-    "react/react-in-jsx-scope": "off",
-    "react/no-unused-vars": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
     "react/jsx-filename-extension": [
-      1,
+      "warn",
       {
         "extensions": [
           ".js",
