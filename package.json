@@ -1,6 +1,6 @@
 {
   "name": "tdubs-express-react-template",
-  "version": "1.0.0-taco",
+  "version": "1.0.0",
   "description": "Express server with basic routes ready to deploy on Heroku. Uses express, helmet, and knex for the backend. Uses react and axios for the frontend.",
   "main": "src/index.js",
   "scripts": {
